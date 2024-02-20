@@ -1,0 +1,32 @@
+
+*{
+    box-sizing: border-box;
+}
+
+#btn {
+    color: aliceblue;
+    background-color: rgb(172, 86, 86);
+    border-radius: 10px;
+    display: block;
+    height: 35px;
+    width: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover{
+    background-color: rgb(255, 149, 142);
+    
+    
+}
+
+.inp{
+
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container
