@@ -1,9 +1,23 @@
 
 *{
-    box-sizing: border-box;
+    margin: 0%;
+    
+}
+html{
+   max-width:100vw ;
+    max-height: 100vh;
+    min-width:100vw ;
+    min-height: 100vh;
+    
+    background-image: linear-gradient(to left bottom, #c962f6, #7887ff, #009bff, #00a6e6, #27aac6);
+    position: absolute;
+    padding: 3%;
+    overflow: hidden;
+    
+    
 }
 
-#btn {
+.btn {
     color: aliceblue;
     background-color: rgb(172, 86, 86);
     border-radius: 10px;
@@ -17,16 +31,46 @@
     background-color: rgb(255, 149, 142);
     
     
+    
 }
 
 .inp{
-
-    width: 200px;
-    height: 35px;
-    border-radius: 10px;
+    color: black;
+    min-width: 380px;
+    min-height: 50px;
     font-size: large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    
+    border-radius: 5%;
+    background-color: transparent;
+    outline: none;
+    
 
 }
 
-.container
+
+
+.inputContainer{
+    background-color: white;
+    min-width: 400px;
+    min-height: 50px;
+    box-shadow: 6px 12px 28px 11px rgba(0, 0, 0, 0.096);
+    border-radius: 1rem;
+    
+}
+
+.inputContainer:hover{
+    box-shadow: 6px 12px 28px 11px rgba(0, 0, 0, 0.151);
+}
+
+.dWrapper{
+    width:100vw ;
+    height:80vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
